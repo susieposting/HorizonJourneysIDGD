@@ -1,0 +1,37 @@
+.content-box {
+    columns: 3 auto;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+
+  /* search */
+  #box1 {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 60px;
+    width: 400px;
+    font-size:50px;
+    align-self: center;
+  }
+
+  .column {
+    float: left;
+    text-align:center;
+    width: 33.33%;
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Monaco', monospace;
+    height: 260px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imagenes img{
+    width: 33.33%;
+  }
+

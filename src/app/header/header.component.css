@@ -1,0 +1,46 @@
+.content-box {
+    columns: 3 auto;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+
+  /*menu*/
+  .menu-icons {
+    columns: 4 auto;
+    margin-right: 480px;
+    margin-left: 480px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Monaco', monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+  .intro {
+    columns: 2 auto;
+    margin-right: 60px;
+    margin-left: 60px;
+    align-items: center;
+    font-family: 'Monaco', monospace;
+  }
+
+  .menu-icons img {
+    border-radius: 50%;
+}
+
+/*footer*/
+
+.container {
+  position: relative;
+  text-align:center;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}

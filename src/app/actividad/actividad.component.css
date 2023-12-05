@@ -1,0 +1,62 @@
+.content-box {
+    columns: 3 auto;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+
+
+.box2 {
+    margin-left: 300px;
+    font-family: 'Monaco', monospace;
+    margin-right: 300px;
+    background: rgb(232, 230, 230);
+    border-radius: 25px;
+    color: #2f2f2f; /* Text color, adjust as needed */
+    text-align: left;
+    padding: 15px; /* Adjust padding as needed */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in box sizing */
+  }
+
+  .box4 {
+    margin-left: 320px;
+    font-family: 'Monaco', monospace;
+    margin-right: 320px;
+    background: rgb(255, 255, 255);
+    border-radius: 150px;
+    color: #2f2f2f; /* Text color, adjust as needed */
+    text-align: left;
+    padding: 13px; /* Adjust padding as needed */
+    font-size: 18px;
+    box-sizing: border-box; /* Include padding and border in box sizing */
+    border: 6px solid teal;
+  }
+
+  .column-img {
+    float: left;
+    text-align:center;
+    width: 25%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+
+  .column {
+    float: left;
+    text-align:left;
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Monaco', monospace;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column p{
+    color: rgb(103, 103, 103);
+  }

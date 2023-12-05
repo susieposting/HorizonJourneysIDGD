@@ -1,0 +1,45 @@
+.about-extra .rectangle {
+    height: 200px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 120px;
+    width: 1440px;
+  }
+
+  .about-extra .rectangle img{
+    height: 200px;
+    width: 300px;
+  }
+  
+  .content-box {
+      columns: 3 auto;
+      margin-right: 80px;
+      margin-left: 80px;
+    }
+  
+.p {
+    color: #000000;
+    font-family: 'Monaco', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    left: 230px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 682px;
+    width: 1040px;
+    text-align: justify;
+  }
+  
+ .text-wrapper-2 {
+    color: #000000;
+    font-family: 'Monaco', monospace;
+    font-weight: bold;
+    font-size: 30px;
+    left: 230px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 597px;
+  }
